@@ -17,7 +17,7 @@ jobs:
           sudo apt-get -y install cowsay
       - name: Create readme
         run: |
-          cowsay -r "don't be a stranger" > README.md
+          echo "$(echo $'```\r\n')$(cowsay -r "don't be a stranger")$(echo $'\r\n```')" > README.md
       - name: Commit readme
         uses: EndBug/add-and-commit@v9
         with:
