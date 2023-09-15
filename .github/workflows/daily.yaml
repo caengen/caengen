@@ -12,7 +12,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Create url
+      - name: install cowsay
+        run: |
+          sudo apt-get -y install cowsay
+      - name: Create readme
         run: |
           cowsay -r "don't be a stranger" > README.md
       - name: Commit readme
