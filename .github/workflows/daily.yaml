@@ -12,12 +12,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: install cowsay
         run: |
-          sudo apt-get -y install cowsay
+          npm i -g cowsay
       - name: Create readme
         run: |
-          echo "$(echo $'```\r\n')$(cowsay -r "don't be a stranger")$(echo $'\r\n```')" > README.md
+          echo "$(echo $'```\r\n')$(cowsay -r "hello?")$(echo $'\r\n```')" > README.md
       - name: Commit readme
         uses: EndBug/add-and-commit@v9
         with:
