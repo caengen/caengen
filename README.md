@@ -1,25 +1,21 @@
 ``` ________
 < hello? >
  --------
-          \
-           \
-            \          __---__
-                    _-       /--______
-               __--( /     \ )XXXXXXXXXXX\v.
-             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
-            /XXX(       U     )        XXXXXXX\
-          /XXXXX(              )--_  XXXXXXXXXXX\
-         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
-         XXXXX/   /            XXXXXX   \__ \XXXXX
-         XXXXXX__/          XXXXXX         \__---->
- ---___  XXX__/          XXXXXX      \__         /
-   \-  --__/   ___/\  XXXXXX            /  ___--/=
-    \-\    ___/    XXXXXX              '--- XXXXXX
-       \-\/XXX\ XXXXXX                      /XXXXX
-         \XXXXXXXXX   \                    /XXXXX/
-          \XXXXXX      >                 _/XXXXX/
-            \XXXXX--__/              __-- XXXX/
-             -XXXXXXXX---------------  XXXXXX-
-                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
-                  ""VXXXXXXXXXXXXXXXXXXV""
+  \
+   \
+
+:. :.孑|:/仔:./  ＼:.| V｜:. ﾄ:. :.
+:. :/  |/  |:/     ヽ|   \/:!\/:.:
+:. / ,ィf芋ミ     ィf芋｀:V  .\/.
+:./ ,' :'::::ﾊ      ,':::::ﾊ ヽ /:.
+:t  { {k)::::!     !k)::::!  },'.:
+:ﾊ    弋 一ソ      弋 一 ｿ ,: ::
+:.{      ￣    ,       ￣  ; :./
+:.| ''                  '' |:./
+:.ﾄ､      ` ､      ノ     ﾉ!:/ノ
+ﾄ､!:＞ ､.     一  '   .,＜:|/::.
+:: :: :: ::>z-一-z<:: :: :: :: :.
+V|＼:/}ﾍ/  `ー又ー' \/}ノ{／|:／
+  ,z'￣ ﾍ   /{ .ﾄ､  /￣  ヽ
+／      /\./x 一 ﾐ./       ＼ 
 ```
