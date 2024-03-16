@@ -1,22 +1,20 @@
 ``` ________
 < hello? >
  --------
-     \              
-      \    /ss/           
-   `oys:  .dmmd`  :syo`   
-   /dmmy   .//.   hmmd:   
-    -/:`          `:/-    
-oyo/:.     ^__^     .:/oy+
-/mmmmm+   <(oo\)>  `ommmmm/
- smmmmms. -(__). .smmmmmo 
- `+dmmmmd+``  ``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+`VVmmmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.    
+ \     ____________ 
+  \    |__________|
+      /           /\
+     /           /  \
+    /___________/___/|
+    |          |     |
+    |  ==\ /== |     |
+    |   o   o  | \ \ |
+    |     <    |  \ \|
+   /|          |   \ \
+  / |  \_____/ |   / /
+ / /|          |  / /|
+/||\|          | /||\/
+    -------------|   
+        | |    | | 
+       <__/    \__>
 ```
