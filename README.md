@@ -1,17 +1,22 @@
 ``` ________
 < hello? >
  --------
-   \
-    \
-              ___
-      D>=G==='   '.
-            |======|
-            |======|
-        )--/]IIIIII]
-           |_______|
-           C O O O D
-          C O  O  O D
-         C  O  O  O  D
-         C__O__O__O__D
-snd     [_____________]
+ \       \      \      
+  \        ^__^  \        
+    ^__^   (oo)   ^__^  
+    (oo)   (__)   (oo)   
+    (__)          (__)   
+oyo/:                :/oy+
+/mmmmm+   syyyyo  `ommmmm/
+ smmmmms. -ymmy. .smmmmmo 
+ `+dmmmmd+``::``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+``ommmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.     
 ```
