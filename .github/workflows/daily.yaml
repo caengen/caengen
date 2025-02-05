@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository and set up Node.js.
       - name: Checkout repository
         uses: actions/checkout@v3
       
@@ -20,7 +19,6 @@ jobs:
         with:
           node-version: 18
       
-      # Step 2: Install cowsay, create README with cowsay output.
       - name: Install cowsay
         run: npm i -g cowsay
       
@@ -28,51 +26,45 @@ jobs:
         run: |
           echo "$(echo $'```\r\n')$(cowsay -r "hello?")$(echo $'\r\n```')" > README.md
       
-      # Step 3: Commit and push the README update.
       - name: Commit README updates
         uses: EndBug/add-and-commit@v9
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           add: "./README.md"
       
-      # To avoid interference from the previous commit push, check out again.
       - name: Checkout repository again for sine commits
         uses: actions/checkout@v3
 
-      # Step 4: Generate sine-curve commits over the past week.
       - name: Generate Sine Curve Commits
         run: |
-          # Define the file to update for sine commits.
           FILE="sine.txt"
           if [ ! -f "$FILE" ]; then
             echo "Sine Commit Log" > "$FILE"
           fi
 
-          # Set maximum commits for the peak day.
+          # Maximum commits at the peak of the sine curve.
           max_commits=10
 
-          # Loop over 7 days.
-          # Here, day 0 represents 6 days ago and day 6 is today.
+          # Loop over 7 days where day 0 is 6 days ago and day 6 is today.
           for day in {0..6}; do
-              # Calculate commit count using a sine curve.
-              # The formula sin(pi*(day+1)/8) produces a low-high-low pattern.
+              # Calculate commit count using a sine function.
               commits=$(python3 -c "import math; print(int(round(math.sin(((($day + 1)/8.0)*math.pi))*$max_commits)))")
               
-              # Compute the commit date. Adjust the offset as needed.
+              # Compute the commit date.
               commit_date=$(date -d "$((6 - day)) days ago" +"%Y-%m-%dT12:00:00")
               
               echo "For date $commit_date, making $commits commit(s)"
               
               if [ $commits -gt 0 ]; then
                 for ((i=1; i<=commits; i++)); do
-                  # Append a unique line for each commit so that there is a change.
                   echo "Sine commit for $commit_date – commit #$i" >> "$FILE"
                   git add "$FILE"
-                  # Backdate the commit by setting the commit dates.
+                  # Backdate the commit.
                   GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit -m "Sine commit for $commit_date – commit #$i"
                 done
               fi
           done
 
-          # Push all backdated sine commits.
+          # Pull the latest changes to avoid non-fast-forward issues, then push the sine commits.
+          git pull --rebase origin master
           git push origin master
