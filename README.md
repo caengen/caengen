@@ -1,22 +1,14 @@
 ``` ________
 < hello? >
  --------
-     \              
-      \    /ss/           
-   `oys:  .dmmd`  :syo`   
-   /dmmy   .//.   hmmd:   
-    -/:`          `:/-    
-oyo/:.     ^__^     .:/oy+
-/mmmmm+   <(oo\)>  `ommmmm/
- smmmmms. -(__). .smmmmmo 
- `+dmmmmd+``  ``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+`VVmmmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.    
+  \
+   \          .
+       ___   //
+     {~o_o~}// 
+      ( Y )K/  
+     ()~*~()   
+     (_)-(_)   
+     Luke    
+     Skywalker
+     koala   
 ```
